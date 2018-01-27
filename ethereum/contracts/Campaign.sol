@@ -1,5 +1,7 @@
 pragma solidity ^0.4.17;
 
+
+
 contract CampaignFactory {
     address[] public deployedCampaigns;
     
@@ -12,6 +14,7 @@ contract CampaignFactory {
         return deployedCampaigns;
     }
 }
+
 
 contract Campaign {
     struct Request {
