@@ -1,7 +1,6 @@
 pragma solidity ^0.4.17;
 
 
-
 contract CampaignFactory {
     address[] public deployedCampaigns;
     
@@ -33,7 +32,7 @@ contract Campaign {
     uint public approversCount;
     
     modifier restricted() {
-        require(msg.sender ==  manager);
+        require(msg.sender == manager);
         _;
     }
     

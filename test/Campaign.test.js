@@ -56,6 +56,24 @@ describe('Campaigns', () => {
     assert(isContributor);
   });
 
+  it('allows a contributer to contribute several times without increasing approvalCount', async () => {
+    await campaign.methods.contribute().send({
+      value: '200',
+      from: accounts[1]
+    });
+
+    const approversCountFirst = await campaign.methods.approversCount().call();
+
+    await campaign.methods.contribute().send({
+      value: '200',
+      from: accounts[1]
+    });
+
+    const approversCountSecond = await campaign.methods.approversCount().call();
+
+    assert.equal(approversCountFirst, approversCountSecond);
+  });
+
   it('requires a minimum contribution', async () => {
     try {
       await campaign.methods.contribute().send({
