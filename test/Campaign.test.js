@@ -32,6 +32,7 @@ beforeEach( async ()=> {
       JSON.parse(compiledCampaign.interface),
       campaignAddress
     );
+    campaign.setProvider(provider);
 });
 
 
