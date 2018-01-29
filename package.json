@@ -6,7 +6,8 @@
   "scripts": {
     "test": "mocha",
     "compile-contract": "node ./ethereum/compile.js",
-    "dev": "next dev"
+    "deploy-contract": "node ./ethereum/deploy.js",
+    "dev": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -23,8 +24,11 @@
     "ganache-cli": "^6.0.3",
     "mocha": "^5.0.0",
     "next": "^4.1.4",
+    "next-routes": "^1.2.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "semantic-ui-css": "^2.2.12",
+    "semantic-ui-react": "^0.77.2",
     "solc": "^0.4.19",
     "truffle-hdwallet-provider": "0.0.3",
     "web3": "^1.0.0-beta.26"
