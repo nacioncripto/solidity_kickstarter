@@ -7,7 +7,7 @@
     "test": "mocha",
     "dev": "node server.js",
     "start": "node server.js",
-    "heroku-postbuild": "next build"
+    "heroku-postbuild": "next build",
     "compile-contract": "node ./ethereum/compile.js",
     "dev": "next dev"
   },
