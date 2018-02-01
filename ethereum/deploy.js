@@ -3,8 +3,8 @@ const Web3 = require('web3');
 const compiledFactory = require('./build/CampaignFactory.json');
 
 // fill in the private key and API infura key
-const PRIVATE_KEY =  '';
-const INFURA_API_KEY = '';
+const PRIVATE_KEY =  'refuse into box proof ask nuclear fine silk parade destroy loan climb';
+const INFURA_API_KEY = 'vUCOR3S24NmMPG1TYPAD';
 
 const provider = new HDWallerProvider(
     PRIVATE_KEY,
