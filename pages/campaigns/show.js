@@ -69,7 +69,7 @@ class CampaignShow extends Component {
 
     render() {
         return (
-            <Layout>
+            <Layout title="Campaign Details">
                 <h3>Campaign Show</h3>
                 <Grid>
                     <Grid.Row>

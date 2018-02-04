@@ -28,7 +28,7 @@ class CampaignIndex extends Component {
 
     render() {
         return (
-            <Layout>
+            <Layout title="Home">
                 <div>
                     <h3>Open Campaigns</h3>
                     <Link route="/campaigns/new">
