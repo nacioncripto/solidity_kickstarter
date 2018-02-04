@@ -1,7 +1,7 @@
 {
   "name": "solidity_kickstarter",
   "version": "1.0.0",
-  "description": "",
+  "description": "A kickstarter like App written with React/Next.js and Solidity Smart Contracts on the Rinkeby Ethereum Network.",
   "main": "index.js",
   "scripts": {
     "compile-contract": "node ./ethereum/compile.js",
@@ -15,11 +15,18 @@
     "node": "8.4.0",
     "npm": "5.3.0"
   },
+  "keywords": [
+    "react",
+    "ethereum",
+    "solidity",
+    "next",
+    "server-side-rendering"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nacioncripto/solidity_kickstarter.git"
   },
-  "author": "",
+  "author": "https://github.com/nacioncripto",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/nacioncripto/solidity_kickstarter/issues"
