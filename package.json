@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
-    "dev": "node server.js",
-    "start": "node server.js",
-    "heroku-postbuild": "next build",
     "compile-contract": "node ./ethereum/compile.js",
-    "dev": "next dev"
+    "test": "mocha",
+    "dev": "node ./server.js",
+	  "start": "next start -p $PORT",
+	  "build": "next build",
+    "heroku-postbuild": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -33,6 +33,7 @@
     "semantic-ui-react": "^0.77.2",
     "solc": "^0.4.19",
     "truffle-hdwallet-provider": "0.0.3",
-    "web3": "^1.0.0-beta.26"
+    "web3": "^1.0.0-beta.26",
+    "react-scripts": "^1.1.0"
   }
 }
