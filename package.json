@@ -11,6 +11,10 @@
 	  "build": "next build",
     "heroku-postbuild": "npm run build"
   },
+  "engines": {
+    "node": "8.4.0",
+    "npm": "5.3.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nacioncripto/solidity_kickstarter.git"
