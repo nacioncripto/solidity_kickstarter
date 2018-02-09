@@ -12,6 +12,12 @@ export default () => {
                     Contact Us
                 </Label>
             </a>
+
+            <a href="https://coralbytes.com/" target="_blank"  style={{padding: 5}}>
+                <Label>
+                    CoralBytes
+                </Label>
+            </a>
             
             <a href="https://nacioncripto.com" target="_blank"  style={{padding: 5}}>
                 <Label>
@@ -19,6 +25,7 @@ export default () => {
                     NacionCripto.com
                 </Label>
             </a>
+
         </Container>
     );
 };
